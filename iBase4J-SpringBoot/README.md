@@ -52,28 +52,3 @@ iBase4J的SpringBoot版本 练习使用
 ## 版权声明
 iBase4J使用 [Apache License 2.0][] 协议.
 
-## 加入QQ群[538240548](http://shang.qq.com/wpa/qunwpa?idkey=b0fb32618d54e6a7f3cb718cd469b2952c8a968b1ef6f17fd68c83338ae4bce3)
-交流技术问题，下载项目文档和一键启动依赖服务工具。
-
-![QQ群](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/1464169485871.png "QQ群一")
-
-## UI效果图
-
-![登录](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/login.png "登录")
-![主页](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/index.png "主页")
-![接口](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/swagger.png "接口")
-
-##==可购买完整版UI(iBase4J-UI-DataTables/iBase4J-UI-AdminLTE)
-客服QQ：2296277393
-
-![登录](https://gitee.com/iBase4J/iBase4J-SpringBoot/raw/master/iBase4J-UI/iBase4J-UI-AdminLTE/desc/1.png "登录")
-![主页](https://gitee.com/iBase4J/iBase4J-SpringBoot/raw/master/iBase4J-UI/iBase4J-UI-AdminLTE/desc/2.png "主页")
-
-
-## License
-iBase4J is released under version 2.0 of the [Apache License][].
-
-![捐赠](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/contribute.png "捐赠")
-
-[Apache License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
-[Apache License]: http://www.apache.org/licenses/LICENSE-2.0
