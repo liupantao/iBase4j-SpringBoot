@@ -1,0 +1,31 @@
+package ${package.ServiceImpl};
+
+import ${package.Entity}.${entity};
+import ${package.Mapper}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+import ${superServiceImplClassPackage};
+import org.springframework.cache.annotation.CacheConfig;
+#if(${cfg.rpcService})
+import com.alibaba.dubbo.config.annotation.Service;
+import com.weibo.api.motan.config.springsupport.annotation.MotanService;
+#else
+import org.springframework.stereotype.Service;
+#end
+/**
+ * <p>
+ * $!{table.comment} 服务实现类
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+#if(${cfg.rpcService})
+@Service(interfaceClass = ${table.serviceName}.class)
+@MotanService(interfaceClass = ${table.serviceName}.class)
+#else
+@Service
+#end
+@CacheConfig(cacheNames = "${entity}")
+public class ${table.serviceImplName} extends ${superServiceImplClass}<${entity}, ${table.mapperName}> implements ${table.serviceName} {
+
+}
